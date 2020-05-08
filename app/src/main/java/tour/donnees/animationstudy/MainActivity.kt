@@ -14,5 +14,10 @@ class MainActivity : AppCompatActivity() {
         label_other_0.setOnClickListener {
             startActivity(Intent(this, BaseAnimationActivity::class.java))
         }
+
+        label_other_1.text = "Transition"
+        label_other_1.setOnClickListener {
+            startActivity(Intent(this, TransitionActivity::class.java))
+        }
     }
 }
