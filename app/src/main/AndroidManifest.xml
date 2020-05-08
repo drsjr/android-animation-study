@@ -21,6 +21,9 @@
         <activity android:name=".AnimationEventActivity" />
         <activity android:name=".BaseAnimationActivity" />
         <activity android:name=".TransitionActivity" />
+        <activity android:name=".TransitionWithoutSceneActivity" />
+        <activity android:name=".transition.TransitionDetailActivity" />
+        <activity android:name=".transition.TransitionListActivity" />
     </application>
 
 </manifest>
